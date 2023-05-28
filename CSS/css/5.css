@@ -1,0 +1,27 @@
+h2{
+    /*font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    */
+
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    /* line-height: 21px;
+    font-size: 15;
+    font-family: Arial, Helvetica, sans-serif;
+*/
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-indent: 30px;
+}
