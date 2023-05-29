@@ -9,7 +9,7 @@
 }
 
 .flex-item{
-    border: 2px solid rgb(172, 10, 132) ;
+    border: 0 solid rgb(172, 10, 132) ;
     padding: 10px;
     font: 900 60px "Roboto", sans-serif;
     color: #fff;
@@ -55,6 +55,16 @@
 
 .flex-conteiner{
     display: flex;
-    min-height: 100vh;  /*высота флекс*/
-    
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.flex-item{
+    flex: 1;
+}
+
+@media screen and (max-width: 650px) {
+    .flex-conteiner{
+        flex-direction: column;
+    }
 }
