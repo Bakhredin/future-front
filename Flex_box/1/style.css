@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-conteiner{
+    border: 10px solid rgb(172, 10, 132);
+}
+
+.flex-item{
+    border: 2px solid rgb(172, 10, 132) ;
+    padding: 10px;
+    font: 900 60px "Roboto", sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 2px 0 rgb(0, 0, 0, 0.2);
+}
+
+.item-1{
+    background-image: linear-gradient(45deg, #a6c0fe, rgb(64, 190, 39), rgb(49, 200, 255));
+}
+
+.item-2{
+    background-image: linear-gradient(45deg, #26fff8, rgb(64, 174, 208), rgb(49, 200, 255));
+}
+
+.item-3{
+    background-image: linear-gradient(45deg, #ef5aa7, rgb(63, 73, 116), rgb(199, 241, 48));
+}
+
+.item-4{
+    background-image: linear-gradient(45deg, #3af1db5a, rgb(190, 39, 39), rgb(234, 17, 242));
+}
+
+.item-5{
+    background-image: linear-gradient(45deg, #ffea00, rgb(64, 190, 39), rgb(49, 200, 255));
+}
+
+.item-6{
+    background-image: linear-gradient(45deg, #9e3a91, rgb(190, 39, 180), rgb(49, 200, 255));
+}
+
+.item-6{
+    background-image: linear-gradient(45deg, #ff00d0, rgb(255, 0, 230), rgb(141, 93, 139));
+}
+
+.item-7{
+    background-image: linear-gradient(45deg, #00fdfd, rgb(10, 163, 219), rgb(49, 200, 255));
+}
+
+.item-8{
+    background-image: linear-gradient(45deg, #ff00ff, rgb(255, 0, 208), rgb(6, 189, 255));
+}
+
+.flex-conteiner{
+    display: flex;
+    min-height: 100vh;  /*высота флекс*/
+    
+}
